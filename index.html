@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="./src/componentes/product-category.css">
 
 	<link rel="stylesheet" href=".//src/componentes/product-grid.css">
+	<link rel="stylesheet" href=".//src/componentes/footer.css">
 
 </head>
 
@@ -54,7 +55,7 @@
 				</li>
 				<li>
 					<a href="#" aria-label="Carrinho">
-						<img src="./src/images/icons/user.svg" alt="Carrinho" />
+						<img src="./src/images/icons/bag.svg" alt="Carrinho" />
 					</a>
 				</li>
 			</ul>
@@ -68,7 +69,7 @@
 			<div class="hero-overlay">
 				<div class="hero-content">
 					<span class="hero-subtitle">Krypton One</span>
-					<h2 class="hero-title">Transforme qualquer passo em presença.</h2>
+					<h2 class="hero-title">Transforme qualquer passo <br>em presença.</h2>
 					<div class="hero-buttons">
 						<a class="btn btn-outline" href="#">Ver modelos</a>
 						<a class="btn btn-filled" href="#">Comprar</a>
@@ -118,10 +119,10 @@
 					<h3 class="card-title">Krypton One</h3>
 					<p class="card-subtitle">Estilo Urbano com atitude </p>
 					<div class="cta-group">
-					<a href="#" class="btn btn-outline">Feminino</a>
-					<a href="#" class="btn btn-outline">Masculino</a>
+						<a href="#" class="btn btn-outline">Feminino</a>
+						<a href="#" class="btn btn-outline">Masculino</a>
+					</div>
 				</div>
-			</div>
 			</div>
 
 
@@ -130,15 +131,84 @@
 			<div class="card sneaker-color"></div>
 			<div class="card sneaker-white"></div>
 			<div class="card sneaker-silver"></div>
-		
+
 
 
 
 		</section>
 	</main>
 
-	<footer class="site-footer">
-		<!-- Informações de contato e links -->
+	<footer class="site-footer" id="footer">
+		<div class="footer-content">
+			<div class="footer-right">
+				<form class="newsletter-form">
+					<label for="newsletter-email">Inscreva-se em nosso e-mail</label>
+					<input type="email" id="newsletter-email" placeholder="email@email.com" />
+				</form>
+				<div class="footer-social">
+					<span>Redes sociais</span>
+					<ul>
+						<li>
+							<a href="#"><img src="./src/images/icons/instagran.svg" alt="Instagram" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="./src/images/icons/watshap.svg" alt="WhatsApp" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="./src/images/icons/ticktok.svg" alt="TikTok" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="./src/images/icons/facebook.svg" alt="Facebook" /></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<nav class="footer-nav" id="footer">
+				<ul>
+					<li>
+						<strong>Masculino</strong>
+						<ul>
+							<li><a href="#">Casual</a></li>
+							<li><a href="#">Esporte</a></li>
+							<li><a href="#">Moderno</a></li>
+							<li><a href="#">Futurista</a></li>
+						</ul>
+					</li>
+					<li>
+						<strong>Feminino</strong>
+						<ul>
+							<li><a href="#">Casual</a></li>
+							<li><a href="#">Esporte</a></li>
+							<li><a href="#">Moderno</a></li>
+							<li><a href="#">Futurista</a></li>
+						</ul>
+					</li>
+					<li>
+						<strong>Outlet</strong>
+						<ul>
+							<li><a href="#">Masculino</a></li>
+							<li><a href="#">Feminino</a></li>
+						</ul>
+					</li>
+					<li>
+						<strong>Nossas lojas</strong>
+						<ul>
+							<li><a href="#">Loja física</a></li>
+							<li><a href="#">Loja online</a></li>
+						</ul>
+					</li>
+					<li>
+						<strong>Sobre</strong>
+						<ul>
+							<li><a href="#">Quem somos</a></li>
+							<li><a href="#">Missão</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<hr />
+		<div class="footer-copy">Copyright. All Rights Reserved</div>
 	</footer>
 </body>
 
